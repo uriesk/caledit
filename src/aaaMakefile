@@ -1,0 +1,25 @@
+all: caledit
+
+caledit: calclass.o eveclass.o functions.o gui-dialog.o gui-mainwindow.o caledit.o
+	g++ calclass.o eveclass.o functions.o gui-dialog.o gui-mainwindow.o caledit.o -o caledit `pkg-config gtkmm-3.0 --cflags --libs`
+
+caledit.o: caledit.cc
+	g++ --std=c++11 -c caledit.cc `pkg-config gtkmm-3.0 --cflags --libs`
+
+calclass.o: calclass.cc
+	g++ --std=c++11 -c calclass.cc
+
+eveclass.o: eveclass.cc
+	g++ --std=c++11 -c eveclass.cc
+
+functions.o: functions.cc
+	g++ --std=c++11 -c functions.cc
+
+gui-dialog.o: gui-dialog.cc
+	g++ --std=c++11 -c gui-dialog.cc `pkg-config gtkmm-3.0 --cflags --libs`
+
+gui-mainwindow.o: gui-mainwindow.cc
+	g++ --std=c++11 -c gui-mainwindow.cc `pkg-config gtkmm-3.0 --cflags --libs`
+
+clean:
+	rm -rf *.o caledit
