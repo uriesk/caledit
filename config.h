@@ -2,7 +2,7 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Enable GUI */
-/*#define ENABLE_GUI*/
+/* #undef ENABLE_GUI */
 
 /* Name of package */
 #define PACKAGE "caledit"

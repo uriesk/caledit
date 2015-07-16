@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/andreas/caledit-0.9'
+ac_pwd='/home/andreas/Projekte/caledit'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -658,12 +658,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/andreas/caledit-0.9/install-sh"
-S["MAKEINFO"]="${SHELL} /home/andreas/caledit-0.9/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/andreas/caledit-0.9/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/andreas/caledit-0.9/missing automake-1.14"
-S["AUTOCONF"]="${SHELL} /home/andreas/caledit-0.9/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/andreas/caledit-0.9/missing aclocal-1.14"
+S["install_sh"]="${SHELL} /home/andreas/Projekte/caledit/install-sh"
+S["MAKEINFO"]="${SHELL} /home/andreas/Projekte/caledit/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/andreas/Projekte/caledit/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/andreas/Projekte/caledit/missing automake-1.14"
+S["AUTOCONF"]="${SHELL} /home/andreas/Projekte/caledit/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/andreas/Projekte/caledit/missing aclocal-1.14"
 S["VERSION"]="0.3"
 S["PACKAGE"]="caledit"
 S["CYGPATH_W"]="echo"
